@@ -37,7 +37,7 @@
       //jsonp请求数据
   		ready (){
   			const self = this;
-			this.$http.jsonp('http://127.0.0.1/project/vuejs/vue-cli/zmcy/static/zmcy.php', {
+			this.$http.jsonp('http://127.0.0.1/project/vuejs/vue-cli/zmcy/static/all.php', {
 			 	params:{
   					imieId:'771151417E03687F75D855F69DA18724',
   					pageNo:this.pageNo,
